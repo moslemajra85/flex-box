@@ -51,3 +51,60 @@
 .fa-space-awesome {
   color: goldenrod;
 }
+
+.container {
+  display: flex;
+  flex: wrap;
+  border: 2px solid tomato;
+  max-width: 600px;
+  margin: 25px auto;
+}
+
+.item {
+  border: 1px solid salmon;
+}
+
+.item-1 {
+  flex-grow: 1;
+}
+.item-2 {
+  flex-grow: 3;
+}
+
+.item-3 {
+  flex-grow: 1;
+}
+
+/* More advanced Navbar */
+
+.navigate {
+  margin-top: 20px;
+  background-color: black;
+}
+
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+}
+.list li {
+  flex-grow: 1;
+}
+
+.list li:hover {
+}
+
+.list a {
+  text-decoration: none;
+  text-align: center;
+  display: block;
+  color: white;
+  font-family: sans-serif;
+  padding: 10px;
+  transition: all 0.6s linear;
+}
+
+.list a:hover {
+  background-color: yellow;
+  color: #000;
+}
